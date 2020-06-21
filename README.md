@@ -1,20 +1,28 @@
+CO2 Tracker
 
-<p style="font-size: 36px";CO2 Tracker </p>
-<p style="font-size: 36px";Creator Sabine Hentzel (SHENTZEL@de.ibm.com), Heidi Eissler (H.Eissler), Silke Keller (Silke.Keller@de.ibm.com), Rolf Schaefer (Rolfscha@de.ibm.com) </p>
+Creator Sabine Hentzel (SHENTZEL@de.ibm.com), Heidi Eissler (H.Eissler), Silke Keller (Silke.Keller@de.ibm.com), Rolf Schaefer (Rolfscha@de.ibm.com)
 
 Run this code locally:
+
 Install Python 3.6 or above
+
 Intall required packages as shown in Pipfile
+
 Start "manage.py" with option "start" for production mode and option "run" für debug mode.
+
 e.g. "python manage.py star" or "python3 manage.py run"
+
 Make sure that "python" will refer to your python3 installation because manage.py is internally using "python"
 
-Deploy be IBM cloud toolchain:
+Deploy by IBM cloud toolchain:
+
 Use the IBM cloud Web Interface to create a service using this code, or use IBM cloud CLI.
+
 For more information see General Information from IBM.
 
  
-<p style="font-size: 36px; "General Information from IBM"</p> 
+<p style="font-size: 36px; "General Information from IBM"</p>
+                                                         
 <p align="center">
     <a href="https://cloud.ibm.com">
         <img src="https://my1.digitalexperience.ibm.com/8304c341-f896-4e04-add0-0a9ae02473ba/dxdam/2d/2d559197-6763-4e47-a2cb-8f54c449ff26/ibm-cloud.svg" height="100" alt="IBM Cloud">
