@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+gunicorn = "==19.7.1"
+ibmcloudenv = "*"
+livereload = "*"
+Flask = ">=1.0.0"
+Cloudant = "*"
+flask-restx = "*"
+flask-httpauth = "*"
+numpy = "*"
+matplotlib.pyplot = "*"
+pandas = "*"
+json2html = "*"
+
+prometheus_client = "*"

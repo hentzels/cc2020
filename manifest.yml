@@ -1,0 +1,14 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: pythonflaskc4c
+  buildpack: python_buildpack
+  command: python manage.py start 0.0.0.0:$PORT
+  disk_quota: 1G
+  memory: 512MB
+  domain: eu-de.mybluemix.net
+  host: python-flask-c4c
+  env:
+    FLASK_APP: server
+    FLASK_DEBUG: false
