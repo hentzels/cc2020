@@ -16,6 +16,8 @@ Make sure that "python" will refer to your python3 installation because manage.p
 
 Deploy by IBM cloud toolchain:
 
+Separate the backend folder from the others and make it the root of your repository for your server.
+
 Use the IBM cloud Web Interface to create a service using this code, or use IBM cloud CLI.
 
 For more information see General Information from IBM.

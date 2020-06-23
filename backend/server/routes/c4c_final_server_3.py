@@ -57,7 +57,8 @@ def loginPage():
     html += '</script>'
     html += '</body></html>'
 #    return html
-    return jsonify("unter construction")
+    # return jsonify("unter construction")
+    return app.send_static_file('login.html')
 
 @app.route('/v1/report/<string:name>', methods=['GET'])
 @app.route('/v1/report/<string:name>/<int:beginTs>/<int:endTs>', methods=['GET'])
